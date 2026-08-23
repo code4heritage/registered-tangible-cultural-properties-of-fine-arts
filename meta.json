@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "dataset": {
+    "repo": "registered-tangible-cultural-properties-of-fine-arts",
+    "name": "登録有形文化財（美術工芸品）",
+    "category": {
+      "code": "211",
+      "name": "登録有形文化財（美術工芸品）"
+    },
+    "kinds": []
+  },
+  "source": {
+    "name": "国指定文化財等データベース",
+    "publisher": "文化庁",
+    "url": "https://kunishitei.bunka.go.jp/",
+    "terms_url": "https://kunishitei.bunka.go.jp/top/policy",
+    "accessed_date": "2026-08-23",
+    "attribution": "出典：「国指定文化財等データベース」（文化庁）\n（https://kunishitei.bunka.go.jp/）（2026年8月23日に利用）\n上記を加工して作成"
+  },
+  "generator": {
+    "name": "heritage-crawler",
+    "version": "0.1.0"
+  },
+  "counts": {
+    "records": 18,
+    "files": 13,
+    "with_coordinates": 16
+  },
+  "labels": {
+    "ledger_id": "台帳ID",
+    "managed_id": "管理対象ID",
+    "category_code": "分類コード",
+    "category_name": "分類",
+    "url": "詳細ページ",
+    "name": "名称",
+    "name_kana": "ふりがな",
+    "quantity": "員数",
+    "types": "種別",
+    "country": "国",
+    "author": "作者",
+    "period": "時代",
+    "year_text": "年代",
+    "western_year": "西暦",
+    "designation_kind": "指定・登録・選定の別",
+    "designation_number": "登録番号",
+    "branch_number": "枝番",
+    "designated_date": "登録年月日",
+    "prefecture": "所在都道府県",
+    "address": "所在地",
+    "latitude": "緯度",
+    "longitude": "経度",
+    "storage_facility": "保管施設の名称",
+    "owner": "所有者名",
+    "description": "解説文",
+    "detailed_description": "詳細解説",
+    "has_attachment": "添付ファイルの有無",
+    "has_itemization": "一つ書の有無",
+    "has_photo": "写真の有無"
+  },
+  "fields": {
+    "ledger_id": 18,
+    "managed_id": 18,
+    "category_code": 18,
+    "category_name": 18,
+    "url": 18,
+    "name": 18,
+    "name_kana": 18,
+    "quantity": 18,
+    "types": 18,
+    "country": 17,
+    "author": 1,
+    "period": 17,
+    "year_text": 7,
+    "western_year": 3,
+    "designation_kind": 18,
+    "designation_number": 17,
+    "branch_number": 14,
+    "designated_date": 18,
+    "prefecture": 18,
+    "address": 16,
+    "latitude": 16,
+    "longitude": 16,
+    "storage_facility": 13,
+    "owner": 14,
+    "description": 16,
+    "detailed_description": 7,
+    "has_attachment": 18,
+    "has_itemization": 18,
+    "has_photo": 18
+  },
+  "facets": {
+    "types": {
+      "歴史資料": 9,
+      "考古資料": 5,
+      "工芸品": 3,
+      "書跡・典籍": 1
+    },
+    "period": {
+      "明治～大正": 3,
+      "昭和時代": 2,
+      "古代～現代": 1,
+      "平安～昭和": 1,
+      "旧石器―歴史": 1,
+      "旧石器時代～江戸時代": 1,
+      "明治時代～昭和時代、清～中華民国、大韓帝国": 1,
+      "明治～昭和": 1,
+      "昭和": 1,
+      "江戸": 1,
+      "江戸時代～昭和時代": 1,
+      "江戸～明治": 1,
+      "縄文～室町": 1,
+      "縄文～弥生": 1
+    },
+    "prefecture": {
+      "宮城県": 3,
+      "京都府": 2,
+      "奈良県": 2,
+      "東京都": 2,
+      "佐賀県": 1,
+      "埼玉県": 1,
+      "大阪府": 1,
+      "富山県": 1,
+      "岐阜県": 1,
+      "福井県": 1,
+      "群馬県": 1,
+      "長崎県": 1,
+      "長野県": 1
+    },
+    "designation_kind": {
+      "登録": 18
+    }
+  },
+  "files": [
+    {
+      "path": "data/04_miyagi.jsonl",
+      "area_code": "04",
+      "area_name": "宮城県",
+      "records": 3
+    },
+    {
+      "path": "data/10_gunma.jsonl",
+      "area_code": "10",
+      "area_name": "群馬県",
+      "records": 1
+    },
+    {
+      "path": "data/11_saitama.jsonl",
+      "area_code": "11",
+      "area_name": "埼玉県",
+      "records": 1
+    },
+    {
+      "path": "data/13_tokyo.jsonl",
+      "area_code": "13",
+      "area_name": "東京都",
+      "records": 2
+    },
+    {
+      "path": "data/16_toyama.jsonl",
+      "area_code": "16",
+      "area_name": "富山県",
+      "records": 1
+    },
+    {
+      "path": "data/18_fukui.jsonl",
+      "area_code": "18",
+      "area_name": "福井県",
+      "records": 1
+    },
+    {
+      "path": "data/20_nagano.jsonl",
+      "area_code": "20",
+      "area_name": "長野県",
+      "records": 1
+    },
+    {
+      "path": "data/21_gifu.jsonl",
+      "area_code": "21",
+      "area_name": "岐阜県",
+      "records": 1
+    },
+    {
+      "path": "data/26_kyoto.jsonl",
+      "area_code": "26",
+      "area_name": "京都府",
+      "records": 2
+    },
+    {
+      "path": "data/27_osaka.jsonl",
+      "area_code": "27",
+      "area_name": "大阪府",
+      "records": 1
+    },
+    {
+      "path": "data/29_nara.jsonl",
+      "area_code": "29",
+      "area_name": "奈良県",
+      "records": 2
+    },
+    {
+      "path": "data/41_saga.jsonl",
+      "area_code": "41",
+      "area_name": "佐賀県",
+      "records": 1
+    },
+    {
+      "path": "data/42_nagasaki.jsonl",
+      "area_code": "42",
+      "area_name": "長崎県",
+      "records": 1
+    }
+  ]
+}
